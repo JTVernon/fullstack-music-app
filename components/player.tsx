@@ -143,7 +143,6 @@ const Player = ({ songs, activeSong }) => {
             icon={<MdSkipPrevious />}
             onClick={prevSong}
           />
-          {playing ? (
             <IconButton
               outline="none"
               variant="link"
@@ -153,7 +152,6 @@ const Player = ({ songs, activeSong }) => {
               icon={<MdOutlinePauseCircleFilled />}
               onClick={() => setPlayState(false)}
             />
-          ) : (
             <IconButton
               outline="none"
               variant="link"
@@ -163,8 +161,6 @@ const Player = ({ songs, activeSong }) => {
               icon={<MdOutlinePlayCircleFilled />}
               onClick={() => setPlayState(true)}
             />
-          )}
-
           <IconButton
             outline="none"
             variant="link"
