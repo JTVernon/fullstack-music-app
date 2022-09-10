@@ -3514,7 +3514,7 @@
   "resolved" "https://registry.npmjs.org/stylis/-/stylis-4.0.13.tgz"
   "version" "4.0.13"
 
-"superjson@1.x":
+"superjson@^1.9.1", "superjson@1.x":
   "integrity" "sha512-oT3HA2nPKlU1+5taFgz/HDy+GEaY+CWEbLzaRJVD4gZ7zMVVC4GDNFdgvAZt6/VuIk6D2R7RtPAiCHwmdzlMmg=="
   "resolved" "https://registry.npmjs.org/superjson/-/superjson-1.9.1.tgz"
   "version" "1.9.1"
